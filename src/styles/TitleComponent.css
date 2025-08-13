@@ -1,0 +1,33 @@
+.title-container {
+    display: flex;
+    flex-direction: column; /* Elementos empilhados verticalmente */
+    align-items: flex-start; /* Alinhados à esquerda */
+    position: relative;
+    left: 50px; /* Ajusta a posição para a direita */
+    top: 250px; /* Ajusta a posição para baixo */
+}
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha à esquerda */
+}
+
+.title-main {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px; /* Tamanho maior para destaque */
+    font-weight: 700; /* Negrito */
+    color: #fff; /* Branco */
+    text-transform: uppercase;
+    line-height: 1; /* Altura ajustada */
+}
+
+.title-sub {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px; /* Tamanho do subtítulo */
+    font-weight: 400; /* Peso regular */
+    color: #fff; /* Branco */
+    text-transform: uppercase;
+    margin-top: 4px; /* Espaçamento superior */
+    line-height: 1; /* Altura ajustada */
+}

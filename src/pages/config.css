@@ -1,0 +1,77 @@
+/* Config.css */
+.config-page {
+    display: flex; /* Para manter o layout com o Menu Lateral e a área de conteúdo */
+  }
+  
+  .menu-lateral {
+    width: 250px; /* Tamanho do menu lateral */
+    background-color: #141414; /* Cor de fundo do menu */
+    color: white;
+    height: 100vh; /* Altura total da tela */
+    padding-top: 20px; /* Espaçamento superior */
+    position: sticky; /* Fixa o menu ao rolar */
+    top: 0;
+  }
+  
+  .menu-lista {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-item {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    background-color: #333;
+  }
+  
+  .menu-link {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .selecionado {
+    color: #ffd700; /* Cor para o item selecionado */
+  }
+  
+  .config-content {
+    flex: 1; /* Preenche o restante do espaço */
+    padding: 20px;
+    background-color: #f4f4f4; /* Cor de fundo da área de conteúdo */
+    color: #333;
+  }
+  
+  .config-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .config-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .config-content .section {
+    margin-top: 30px;
+  }
+  
+  .config-content .section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .config-content .section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .config-content .section ul li {
+    margin-bottom: 10px;
+  }
+  
