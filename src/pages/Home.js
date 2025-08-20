@@ -25,7 +25,7 @@ import theCrow from '../img/movie-img/the crow.jpg';
 import black from '../img/movie-img/black.jpg';
 import you from '../img/movie-img/you.jpg';
 // fuerhnfuf
-
+// test
 const movies1 = [
   { image: machos },
   { image: solteiros },
